@@ -1,9 +1,9 @@
 
 * <h2>zero-githb</h2>
 
-    *  [test](./zero/test.md)
-    *  [markdown语法](./zero/markdown语法.md)
+    *  [test](./docs/zero/test.md)
+    *  [markdown语法](./docs/zero/markdown语法.md)
 
 
-* [Guide](./docs/Guide.md)
+* [Guide](./docs/Guide/README.md)
 

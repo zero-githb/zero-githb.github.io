@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <div id="app"></div>
+    <div id="app">加载中······</div>
     <!-- docsify-edit-on-github -->
     <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
     <script>
@@ -20,18 +20,19 @@
         name: 'zero-githb',
         repo: 'https://github.com/zero-githb/zero-githb.github.io',
         maxLevel: 5,//最大支持渲染的标题层级
-        subMaxLevel: 3,
+        subMaxLevel: 4,
         homepage: 'README.md',
         coverpage: true,
         loadSidebar: true,
         // loadNavbar: true,
         auto2top: true,//切换页面后是否自动跳转到页面顶部
+        themeColor: '#FF0000',
         //全文搜索
         search: {
           //maxAge: 86400000, // 过期时间，单位毫秒，默认一天
           paths: 'auto',
-          placeholder: '搜索',
-          noData: '找不到结果',
+          placeholder: '搜索····',
+          noData: '未找到结果，换个搜索词试试？',
           // 搜索标题的最大程级, 1 - 6
           depth: 3,
         },
@@ -41,6 +42,7 @@
       }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <!-- 链接下一篇文章 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
     <!--Java代码高亮-->
     <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
